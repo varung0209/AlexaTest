@@ -1,0 +1,43 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "executetheta",
+            "intents": [
+                {
+                    "name": "ThetaWorld",
+                    "slots": [],
+                    "samples": [
+                        "Vision",
+                        "Goal",
+                        "World",
+                        "Plan",
+                        "Motive"
+                    ]
+                },
+                {
+                    "name": "ThetaMaster",
+                    "slots": [],
+                    "samples": [
+                        "Creator",
+                        "Writer",
+                        "Commander",
+                        "Who commands you",
+                        "Master",
+                        "Owner"
+                    ]
+                },
+                {
+                    "name": "ThetaSlave",
+                    "slots": [],
+                    "samples": [
+                        "Helper",
+                        "Who is under master",
+                        "Who else",
+                        "Slave"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
